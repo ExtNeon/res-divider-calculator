@@ -1,0 +1,23 @@
+str_cannot_pick="... It was not possible to pick up resistors."
+str_list_loaded="List of {} resistors loaded successfully."
+str_enter_input_voltage="Enter input voltage: "
+str_enter_output_voltage="Enter output voltage: "
+str_enter_max_coef_divergence="Enter maximum coefficient divergence (accuracy of divider, optional)[0.0015]: "
+str_enter_max_heat_dissipation="Enter maximum permitted heat dissipation of divider (mW, optional)[10]: "
+str_coef_divergence_set_default="Coefficient divergence will be default: {}"
+str_max_heat_dissipation_set_default="Maximum permitted heat dissipation will be default: {}mW"
+str_error_output_gr_input="There is an error in entered data: output voltage is greater than input voltage."
+str_error_output_eq_input="There is an error in entered data: output voltage is equals input voltage."
+str_error_zero="There is an error in entered data: output or input voltage is less or equals zero."
+str_error_nan="There is an error in entered data: you entered not a number."
+str_trouble_impedance_too_high="Input voltage is too high. There are none resistors in base that can provide impedance of {}"
+str_coef_diff_exceeded_threshold="With single resistors min coefficient divergence is {}, which does not fit into the tolerance of {}. Building combinations..."
+str_combination="a combination of series-connected resistors on {}, {} (in total {})"
+str_result_coef_divergence=", that divergents from ideal to {}%"
+str_result="""Required divisor coefficient: {}.
+The resulting coefficient is: {}{}.
+Resistors:
+Top: {}.
+Bottom: {}.
+The current in the divider circuit at the input: {}mA, this is {}mW;
+Voltage at the output of the divider: {}V;"""
